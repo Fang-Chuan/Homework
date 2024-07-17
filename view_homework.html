@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>查看作業</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>查看作業</h1>
+        <p><strong>標題：</strong>{{ homework[0] }}</p>
+        <p><strong>截止日期：</strong>{{ homework[1] }}</p>
+        <p><strong>狀態：</strong>{{ homework[2] }}</p>
+        <p><strong>學生座號：</strong>{{ homework[3] }}</p>
+        <a href="{{ url_for('index') }}">返回</a>
+    </div>
+</body>
+</html>

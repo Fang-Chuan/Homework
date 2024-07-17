@@ -1,0 +1,105 @@
+/* 通用樣式 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8;
+    background-image: url('https://www.example.com/background-image.jpg'); /* 背景圖片 URL */
+    background-size: cover;
+    background-attachment: fixed;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* 半透明背景 */
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2em;
+    color: #333;
+}
+
+nav {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.nav-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.nav-button:hover {
+    background-color: #0056b3;
+}
+
+section {
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tr:hover {
+    background-color: #e9ecef;
+}
+
+.btn-submit, .btn-view {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 2px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+.btn-submit {
+    background-color: #28a745;
+}
+
+.btn-submit:hover {
+    background-color: #218838;
+}
+
+.btn-view {
+    background-color: #17a2b8;
+}
+
+.btn-view:hover {
+    background-color: #117a8b;
+}
+

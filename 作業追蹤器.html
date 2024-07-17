@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>作業追蹤器</title>
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>作業追蹤器</h1>
+        </header>
+        <nav>
+            <a href="/add" class="nav-button">新增作業</a>
+            <a href="/import_students" class="nav-button">匯入學生資料</a>
+        </nav>
+        <section>
+            <h2>作業列表</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>標題</th>
+                        <th>截止日期</th>
+                        <th>狀態</th>
+                        <th>學生座號</th>
+                        <th>操作</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                        <tr>
+                            <td>Title</td>
+                            <td>Due Date</td>
+                            <td>Status</td>
+                            <td>Student ID</td>
+                            <td>
+                                
+                                <a href="/view/0" class="btn-view">查看</a>
+                            </td>
+                        </tr>
+                    
+                </tbody>
+            </table>
+        </section>
+    </div>
+</body>
+</html>

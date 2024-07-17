@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>匯入學生資料</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>匯入學生資料</h1>
+        <form method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="file">選擇 CSV 文件：</label>
+                <input type="file" id="file" name="file" accept=".csv" required>
+            </div>
+            <button type="submit">匯入</button>
+        </form>
+        <a href="{{ url_for('index') }}">返回</a>
+    </div>
+</body>
+</html>
